@@ -3,7 +3,7 @@
 #define SIZE 5  
 
 void sumArrays(int *arr1, int *arr2, int *result, int size) {
-    int i;  // Declare i outside the loop
+    int i; 
     for (i = 0; i < size; i++) {  
         *(result + i) = *(arr1 + i) + *(arr2 + i);  
     }
@@ -11,7 +11,7 @@ void sumArrays(int *arr1, int *arr2, int *result, int size) {
 
 int main() {
     int arr1[SIZE], arr2[SIZE], result[SIZE];
-    int i;  // Declare i outside the loop
+    int i; 
 
     printf("Enter %d elements for first array:\n", SIZE);
     for (i = 0; i < SIZE; i++) {
