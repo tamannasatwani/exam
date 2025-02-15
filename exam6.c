@@ -9,14 +9,14 @@ struct Mobile {
 };
 
 int main() {
-    int n, i;  // Declare i outside the loop
+    int n, i;  
     
     printf("Enter the number of mobiles: ");
     scanf("%d", &n);
     
-    struct Mobile mobiles[n];  // Variable-length array (only works in C99+)
+    struct Mobile mobiles[n]; 
 
-    for (i = 0; i < n; i++) {  // Declare i before using it
+    for (i = 0; i < n; i++) {  
         printf("\nEnter details for Mobile %d:\n", i + 1);
         
         printf("Company Name: ");
