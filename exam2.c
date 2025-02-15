@@ -6,9 +6,9 @@
 
 void countConsonants(char str[]) {
     int count[26] = {0}; 
-    int i;  // Declare i outside the for loop
+    int i;  
 
-    // Iterate over the string
+    
     for (i = 0; str[i] != '\0'; i++) {
         char ch = tolower(str[i]);
 
